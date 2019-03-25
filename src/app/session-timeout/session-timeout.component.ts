@@ -124,6 +124,7 @@ export class SessionTimeoutComponent implements OnInit {
     return timeLeft % 1000; // this is the milliseconds portion of the time difference
   }
 
+  // Unused
   private option2(): void {
     const sessionDuration = 15000;
     const warningAmount = 5000;
