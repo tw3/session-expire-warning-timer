@@ -1,0 +1,9 @@
+<div class="buttons">
+  <button (click)="refreshSession()">Refresh session</button>
+  <button (click)="destroySession()">Destroy session</button>
+</div>
+
+<div *ngFor="let timerOutputItem of timerOutput">
+  {{ timerOutputItem | json }}
+</div>
+

@@ -1,0 +1,15 @@
+:host {
+  font-family: Monaco, "Lucida Console", monospace;
+  font-size: 12px;
+}
+
+buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
